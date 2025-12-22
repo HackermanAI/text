@@ -1,3 +1,3 @@
 # Hackerman Text
 
-Hackerman Text repo for issues, discussions, and default configs.
+Hackerman Text repo for releases, issues, and default configs.
