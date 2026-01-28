@@ -1,5 +1,5 @@
 
-[Download](https://github.com/HackermanAI/text/releases) | [Buy license](https://hackerman.ai/#waitlist) | [Submit feature request >>](https://github.com/HackermanAI/text/issues/new)
+[Download](https://github.com/HackermanAI/text/releases) | [Buy license](https://hackerman.ai/#waitlist) | [Feedback + bugs](https://github.com/HackermanAI/text/issues)
 
 ![banner](banner.png)
 
@@ -48,8 +48,6 @@ Filter the file explorer instantly to jump to what you need (e.g. c/, .py). For 
 
 ## Editor roadmap
 
-[Submit feature request >>](https://github.com/HackermanAI/text/issues/new)
-
 | Done | Almost ready | TODO |
 | :--- | :---         | :--- |
 | Core editor features (multi-cursor, multiple selections)  | Bring your own lexer                                  | Remote development (SSH) |
@@ -64,6 +62,8 @@ Filter the file explorer instantly to jump to what you need (e.g. c/, .py). For 
 | Zero-latency typing (<10ms)                               |  |  |
 | Context-aware autocomplete                                |  |  |
 | Code scroller (minimap)                                   |  |  |
+
+[Submit feature request >>](https://github.com/HackermanAI/text/discussions/categories/ideas)
 
 
 ## Programming language support
@@ -93,4 +93,6 @@ Minimal language support by design. The built-in lexers are hand-tuned for speed
 | Ruby          |               |
 | Rust          |               |
 | Zig           |               |
+
+[Submit feature request >>](https://github.com/HackermanAI/text/discussions/categories/ideas)
 
