@@ -13,25 +13,21 @@ Most things behave as you'd expect, no learning curve. Focus on a single file, o
 
 Your configuration lives in plain text, so it can be version-controlled, shared across machines, or stored in the cloud.
 
-
-## Simple and fast
+**Simple and fast**
 
 Hackerman Text ships with built-in, native-level lexers tuned for speed. There are currently no plans to add heavier, language-aware tooling.
 
-
-## Inline AI chat
+**Inline AI chat**
 
 Edit or delete context as plain text, or use Markdown for extra structure. Chats can be saved to disk, version controlled, and resumed later in any editor.
 
-
-## Custom bindable functions
+**Custom bindable functions**
 
 Write your own editor commands in a small, well-defined subset of Python.
 
 Functions hot-reload from your scripts file, show up in the function explorer, and can be bound to any key, so your custom workflows feel like built-in features.
 
-
-## Intuitive key bindings
+**Intuitive key bindings**
 
 Hackerman Text uses platform-default shortcuts. No learning curve.
 
@@ -61,7 +57,7 @@ line_end                Command + Right, Control + E
 [Submit feature request >>](https://github.com/HackermanAI/text/issues/new)
 
 
-## Model support
+# Model support
 
 Local model support via Ollama, plus out-of-the-box integration with OpenAI and Mistral, with more providers planned over time.
 
@@ -81,7 +77,8 @@ code_instruction        openai, gpt-5.1-chat-latest, ...
 chat                    openai, gpt-5.1-chat-latest, ...
 ```
 
-## Programming language support
+
+# Programming language support
 
 | Supported     | Planned       |
 | :---          | :---          |
