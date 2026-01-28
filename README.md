@@ -3,23 +3,37 @@
 
 ![banner](banner.png)
 
-# Hackerman Text, the AI-native code editor 
+# Hackerman Text, the AI-native code editor
 
-Hackerman Text is built on a simple principle: make typing feel instant, then stay out of your way.
+**Local-first AI. Zero-latency typing. No telemetry, no sign in.**
 
-Non-essential features are on-demand by default. There are no distracting squiggles.
-
-Most things behave as you'd expect, no learning curve. Focus on a single file, or open multiple files into a single view. Every view stays in sync and always shows the latest version of your files.
-
-Your configuration lives in plain text, so it can be version-controlled, shared across machines, or stored in the cloud.
+---
 
 **Simple and fast**
 
-Hackerman Text ships with built-in, native-level lexers tuned for speed. There are currently no plans to add heavier, language-aware tooling.
+Built-in, native-level lexers. A minimal always-visible UI keeps the focus on code.
+
+The goal is near-zero typing latency, even in huge files, in any language. Anything that measurably slows this down is either removed or made opt-in.
 
 **Inline AI chat**
 
-Edit or delete context as plain text, or use Markdown for extra structure. Chats can be saved to disk, version controlled, and resumed later in any editor.
+Edit and organize chat conversations as plain text, or Markdown. Chats can be saved to disk, version controlled, and opened later in any editor.
+
+Local model support via Ollama, plus out-of-the-box integration with OpenAI and Mistral, with more providers planned over time.
+
+**Intuitive key bindings**
+
+Platform-default shortcuts. No learning curve. Everything is a function and bindable.
+
+```
+delete                  Backspace
+...
+line_up                 Up, Control + P
+line_down               Down, Control + N
+...
+line_start              Command + Left, Control + A
+line_end                Command + Right, Control + E
+```
 
 **Custom bindable functions**
 
@@ -27,17 +41,22 @@ Write your own editor commands in a small, well-defined subset of Python.
 
 Functions hot-reload from your scripts file, show up in the function explorer, and can be bound to any key, so your custom workflows feel like built-in features.
 
-**Intuitive key bindings**
+**Context-aware autocomplete**
 
-Hackerman Text uses platform-default shortcuts. No learning curve.
+Autocomplete stays fast by indexing the current file on load and updating as you type.
 
-```
-line_start              Command + Left, Control + A
-line_end                Command + Right, Control + E
-```
+Suggestions come only from your document and are ranked so the most likely match appears first.
+
+**Project-wide search**
+
+Filter the file explorer instantly to jump to what you need (e.g. c/, .py).
+
+For deeper searches, scan every file for a pattern and export the results as plain text to save, share, or work from.
 
 
 # Editor roadmap
+
+[Submit feature request >>](https://github.com/HackermanAI/text/issues/new)
 
 | Done | Almost ready | TODO |
 | :--- | :---         | :--- |
@@ -54,31 +73,10 @@ line_end                Command + Right, Control + E
 | Context-aware autocomplete                                |  |  |
 | Code scroller (minimap)                                   |  |  |
 
-[Submit feature request >>](https://github.com/HackermanAI/text/issues/new)
-
-
-# Model support
-
-Local model support via Ollama, plus out-of-the-box integration with OpenAI and Mistral, with more providers planned over time.
-
-```
--- code completion (fill-in-the-middle)
-
-code_completion         ollama, qwen2.5-coder:1.5b
-                        -- ollama, qwen2.5-coder:7b
-                        -- mistral, codestral, ...
-
--- code instruction (selection as prompt)
-
-code_instruction        openai, gpt-5.1-chat-latest, ...
-
--- inline chat
-
-chat                    openai, gpt-5.1-chat-latest, ...
-```
-
 
 # Programming language support
+
+Minimal language support by design. The built-in lexers are hand-tuned for speed and precise syntax highlighting, with language-specific code folding.
 
 | Supported     | Planned       |
 | :---          | :---          |
@@ -103,6 +101,4 @@ chat                    openai, gpt-5.1-chat-latest, ...
 | Ruby          |               |
 | Rust          |               |
 | Zig           |               |
-
-[Submit feature request >>](https://github.com/HackermanAI/text/issues/new)
 
