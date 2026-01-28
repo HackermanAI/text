@@ -32,8 +32,8 @@ Functions hot-reload from your scripts file, show up in the function explorer, a
 Hackerman Text uses platform-default shortcuts. No learning curve.
 
 ```
-line_start          Command + Left, Control + A
-line_end            Command + Right, Control + E
+line_start              Command + Left, Control + A
+line_end                Command + Right, Control + E
 ```
 
 # Editor roadmap
@@ -52,4 +52,30 @@ line_end            Command + Right, Control + E
 | Zero-latency typing (<10ms)                               |  |  |
 | Context-aware autocomplete                                |  |  |
 | Code scroller (minimap)                                   |  |  |
+
+## Model support
+
+Local model support via Ollama, plus out-of-the-box integration with OpenAI and Mistral, with more providers planned over time.
+
+```
+-- code completion (fill-in-the-middle)
+
+code_completion         ollama, qwen2.5-coder:1.5b
+                        -- ollama, qwen2.5-coder:7b
+                        -- mistral, codestral, ...
+
+-- code instruction (selection as prompt)
+
+code_instruction        openai, gpt-5.1-chat-latest, ...
+
+-- inline chat
+
+chat                    openai, gpt-5.1-chat-latest, ...
+```
+
+## Programming language support
+
+Assembly, Bash, C, C++, C#, CSS, Cython, D, Haskell, HTML, JavaScript, LaTeX, Lua, Makefile, Markdown, Odin, Pascal, PHP, Python, Ruby, Rust, Zig
+
+Planned: Dart, Fortran, Go, Kotlin, Lisp, Mojo, Nim, OCaml, Perl, PowerShell, Prolog, R, Scala, Swift, TypeScript, Verilog, Jai
 
