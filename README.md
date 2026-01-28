@@ -3,21 +3,27 @@
 
 ![banner](banner.png)
 
+
 # Hackerman Text, the AI-native code editor
 
 **Local-first AI. Zero-latency typing. No telemetry, no sign in.**
 
----
 
-**Simple and fast**
+## Features
 
-Built-in, native-level lexers. A minimal always-visible UI keeps the focus on code. The goal is near-zero typing latency, even in huge files, in any language. Anything that measurably slows this down is either removed or made opt-in.
+### Simple and fast
 
-**Inline AI chat**
+Built-in, native-level lexers. A minimal always-visible UI keeps the focus on code.
 
-Edit and organize chat conversations as plain text, or Markdown. Chats can be saved to disk, version controlled, and opened later in any editor. Local model support via Ollama, plus out-of-the-box integration with OpenAI and Mistral, with more providers planned over time.
+The goal is near-zero typing latency, even in huge files, in any language. Anything that measurably slows this down is either removed or made opt-in.
 
-**Intuitive key bindings**
+### Inline AI chat
+
+Edit and organize chat conversations as plain text, or Markdown. Chats can be saved to disk, version controlled, and opened later in any editor.
+
+Local model support via Ollama, plus out-of-the-box integration with OpenAI and Mistral, with more providers planned over time.
+
+### Intuitive key bindings
 
 Platform-default shortcuts. No learning curve. Everything is a function and bindable.
 
@@ -31,20 +37,24 @@ line_start              Command + Left, Control + A
 line_end                Command + Right, Control + E
 ```
 
-**Custom bindable functions**
+### Custom bindable functions
 
-Write your own editor commands in a small, well-defined subset of Python. Functions hot-reload from your scripts file, show up in the function explorer, and can be bound to any key, so your custom workflows feel like built-in features.
+Write your own editor commands in a small, well-defined subset of Python.
 
-**Context-aware autocomplete**
+Functions hot-reload from your scripts file, show up in the function explorer, and can be bound to any key, so your custom workflows feel like built-in features.
+
+### Context-aware autocomplete
 
 Autocomplete stays fast by indexing the current file on load and updating as you type. Suggestions come only from your document and are ranked so the most likely match appears first.
 
-**Project-wide search**
+### Project-wide search
 
-Filter the file explorer instantly to jump to what you need (e.g. c/, .py). For deeper searches, scan every file for a pattern and export the results as plain text to save, share, or work from.
+Filter the file explorer instantly to jump to what you need (e.g. c/, .py).
+
+For deeper searches, scan every file for a pattern and export the results as plain text to save, share, or work from.
 
 
-# Editor roadmap
+## Editor roadmap
 
 [Submit feature request >>](https://github.com/HackermanAI/text/issues/new)
 
@@ -64,7 +74,7 @@ Filter the file explorer instantly to jump to what you need (e.g. c/, .py). For 
 | Code scroller (minimap)                                   |  |  |
 
 
-# Programming language support
+## Programming language support
 
 Minimal language support by design. The built-in lexers are hand-tuned for speed and precise syntax highlighting, with language-specific code folding.
 
