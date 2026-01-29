@@ -11,26 +11,19 @@
 
 ## Quick start guide
 
-Useful default key bindings to get you started:
+| `Command + E` | File explorer (drop folder on editor or edit config file to update root directory) |
+| `Command + Shift + E` | File outline for quick overview and navigation |
+| `Command + P` (or right click) | Function explorer with all editor functions and key bindings |
+| `Command + Shift + P` | Open config file in new buffer |
+| `Command + F` | Find in file |
+| `Command + Shift + F` | Project-wide search (hit enter in search input to export as org-file) |
+| `Command + W` | Toggle split view (shared document with open buffer) |
+| `Shift + Click` ||
 
-- `Command + E` to open file explorer (drop folder on editor or edit config file to update root directory)
-
-- `Command + Shift + E` to open document outline for quick overview and navigation
-
-- `Command + P` (or right click) to open function explorer with all editor functions and key bindings
-
-- `Command + Shift + P` to open config file
-
-- `Command + F` to open find in file
-
-- `Command + Shift + F` to open project-wide search (hit enter in search box to export as org-file)
-
-- `Command + W` to open split view (shared document with current open file)
+Other useful default key bindings to get you started:
 
 - `Shift + Click` on file names in title to open many (stacked horizontally)
-
 - `DoubleCLick` (or `Command + L`) on line number to fold code
-
 
 
 ## Features
