@@ -29,6 +29,8 @@ Useful default key bindings to get you started:
 
 - `Shift + Click` on file names in title to open many (stacked horizontally)
 
+- `DoubleCLick` (or `Command + L`) on line number to fold code
+
 
 
 ## Features
