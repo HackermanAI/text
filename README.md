@@ -9,6 +9,28 @@
 **Local-first AI. Zero-latency typing. No telemetry, no sign in.**
 
 
+## Quick start guide
+
+Useful default key bindings to get you started:
+
+- `Command + E` to open file explorer (drop folder on editor or edit config file to update root directory)
+
+- `Command + Shift + E` to open document outline for quick overview and navigation
+
+- `Command + P` (or right click) to open function explorer with all editor functions and key bindings
+
+- `Command + Shift + P` to open config file
+
+- `Command + F` to open find in file
+
+- `Command + Shift + F` to open project-wide search (hit enter in search box to export as org-file)
+
+- `Command + W` to open split view (shared document with current open file)
+
+
+
+
+
 ## Features
 
 ### Simple and fast
