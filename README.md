@@ -27,7 +27,7 @@ Useful default key bindings to get you started:
 
 - `Command + W` to open split view (shared document with current open file)
 
-
+- `Shift + Click` on file names in title to open many (stacked horizontally)
 
 
 
