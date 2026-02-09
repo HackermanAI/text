@@ -11,19 +11,23 @@
 - Project-wide search
 - Keybind custom functions
 - Emacs-like org mode for notes
-- Zero-latency typing (<10ms)
-- Context-aware autocomplete
 - Inline shell, eval, and AI chat
 
-* Polishing
+# testing
+
+- Zero-latency typing (<10ms)
+- Context-aware autocomplete
+
+
+* In progress
 
 - Code scroller (minimap)
 - Bring your own lexer
 - Support for mix-and-match LLMs (local and hosted)
 - Sublime-like performance
 
-* Not started
+* Ideas
 
-- Remote development (SSH)
-- Virtual buffers for very large files (10M+ lines)
+- Remote development (SSH) by [[@asyncze]]
+- Virtual buffers for very large files (10M+ lines) by [[@asyncze]]
 
