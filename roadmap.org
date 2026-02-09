@@ -1,0 +1,29 @@
+
+* Done
+
+- Core editor features
+- Everything as text files
+- Multi-cursor editing
+- Multiple views, single document
+- Create your own themes
+- Local LLMs
+- Copilot-like code completion
+- Project-wide search
+- Keybind custom functions
+- Emacs-like org mode for notes
+- Zero-latency typing (<10ms)
+- Context-aware autocomplete
+- Inline shell, eval, and AI chat
+
+* Polishing
+
+- Code scroller (minimap)
+- Bring your own lexer
+- Support for mix-and-match LLMs (local and hosted)
+- Sublime-like performance
+
+* Not started
+
+- Remote development (SSH)
+- Virtual buffers for very large files (10M+ lines)
+
