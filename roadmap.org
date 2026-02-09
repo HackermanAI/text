@@ -13,18 +13,17 @@
 - Emacs-like org mode for notes
 - Inline shell, eval, and AI chat
 
-# testing
-
-- Zero-latency typing (<10ms)
-- Context-aware autocomplete
-
-
 * In progress
 
 - Code scroller (minimap)
 - Bring your own lexer
 - Support for mix-and-match LLMs (local and hosted)
 - Sublime-like performance
+
+** Testing
+
+- Zero-latency typing (<10ms)
+- Context-aware autocomplete
 
 * Ideas
 
