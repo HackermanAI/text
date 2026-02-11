@@ -1,8 +1,7 @@
 
-[Download](https://github.com/HackermanAI/Hackerman-Text/releases) -- [Buy license](https://hackerman.ai/#pricing) -- [Feedback + bugs](https://github.com/HackermanAI/Hackerman-Text/issues) -- [Submit feature request](https://github.com/HackermanAI/Hackerman-Text/discussions/categories/ideas)
-
 ![banner](print_sm.png)
 
+[Download](https://github.com/HackermanAI/Hackerman-Text/releases) • [Buy license](https://hackerman.ai/#pricing) • [Feedback + bugs](https://github.com/HackermanAI/Hackerman-Text/issues) • [Submit feature request](https://github.com/HackermanAI/Hackerman-Text/discussions/categories/ideas)
 
 # Hackerman Text, the AI-native code editor
 
@@ -15,8 +14,8 @@
 | :---                              | :--- |
 | `Command + E`                     | File explorer (drop folder on editor or edit config file to update root directory) |
 | `Command + Shift + E`             | File outline for quick overview and navigation |
-| `Command + P` (or right click)    | Function explorer with all editor functions and key bindings |
-| `Command + Shift + P`             | Open config file in new buffer |
+| `Command + P`                     | Open buffers (same as tab list, if hidden) |
+| `Command + Shift + P` (or right click) | Function explorer with all editor functions and key bindings |
 | `Command + F`                     | Find in file |
 | `Command + Shift + F`             | Project-wide search (hit enter in search input to export as org-file) |
 | `Command + W`                     | Toggle split view (shared document with open buffer) |
