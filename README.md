@@ -1,7 +1,7 @@
 
 [Download](https://github.com/HackermanAI/Hackerman-Text/releases) -- [Buy license](https://hackerman.ai/#pricing) -- [Feedback + bugs](https://github.com/HackermanAI/Hackerman-Text/issues) -- [Submit feature request](https://github.com/HackermanAI/Hackerman-Text/discussions/categories/ideas)
 
-![banner](banner.png)
+![banner](print_sm.png)
 
 
 # Hackerman Text, the AI-native code editor
