@@ -20,7 +20,7 @@
 
 * In progress
 
-- Reliability bug fixes
+- Reliability bug fixes (137 to go)
 - Bring your own lexer
 - Sublime-like performance
 
